@@ -28,6 +28,7 @@ public class GoedeDoel {
     }
     @Override
     public int hashCode() {
+        System.out.println("hashCod ");
         return this.naam.toUpperCase().hashCode();
     }
 
