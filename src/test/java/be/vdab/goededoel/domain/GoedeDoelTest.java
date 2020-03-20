@@ -16,7 +16,7 @@ class GoedeDoelTest {
 
 	@Test
 	void getNaam() {
-		assertThat(doel.getNaam()).isEqualTo("xxx");
+		assertThat(doel.getNaam()).isEqualTo(NAAM);
 	}
 	@Test
 	void eenNieuwDoelHeeftNogGeenOpbrengst() {
