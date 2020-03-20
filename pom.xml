@@ -72,13 +72,13 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>com.github.spotbugs</groupId>
-				<artifactId>spotbugs-maven-plugin</artifactId>
-				<version>4.0.0</version>
+				<plugin>
+					<groupId>com.github.spotbugs</groupId>
+					<artifactId>spotbugs-maven-plugin</artifactId>
+					<version>4.0.0</version>
 
 
-			</plugin>
+				</plugin>
 		</plugins>
 	</build>
 	<reporting>
